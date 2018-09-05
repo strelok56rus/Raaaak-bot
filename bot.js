@@ -6,11 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '+') {
-    	message.reply('-');
+    if (message.content === '-help') {
+    	message.reply('В данный момент не найдено команд..');
   	}
-    if (message.content === '1') {
-    	message.reply('2');
+    if (message.content === '-setpictures') {
+    	message.reply('Pictures is not found');
   	}
 
 
