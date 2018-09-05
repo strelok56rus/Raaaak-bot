@@ -6,9 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '+') {
+    	message.reply('-');
   	}
+    if (message.content === '1') {
+    	message.reply('2');
+  	}
+
+
 });
 
 // THIS  MUST  BE  THIS  WAY
