@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '-help') {
-    	message.reply('-setpictures');
+    	message.reply('-hackthis - ТОП КОМАНДА 2019! 2018!');
   	}
     if (message.content === '-setpictures') {
     	message.reply('Пикчи не найдены, получить роль Создателя командой "-helpopmanage"');
