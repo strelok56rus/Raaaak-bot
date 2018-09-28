@@ -7,10 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '-help') {
-    	message.reply('В данный момент не найдено команд..');
+    	message.reply('-setpictures');
   	}
     if (message.content === '-setpictures') {
-    	message.reply('Pictures is not found');
+    	message.reply('Пикчи не найдены, получить роль Создателя командой "-helpopmanage"');
+  	}
+    if (message.content === '-helpopmanage') {
+    	message.reply('Sorry, role "Создатель" is not found.');
   	}
 
 });
