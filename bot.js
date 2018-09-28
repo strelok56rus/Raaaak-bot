@@ -15,6 +15,9 @@ client.on('message', message => {
     if (message.content === '-helpopmanage') {
     	message.reply('Sorry, role "Создатель" is not found.');
   	}
+    if (message.content === '-hackthis') {
+    	message.reply('http://zipansion.com/47l1q - Раскрутка YouTube, ВКонтакте, Твиттер, FaceBook, Инстаграмм, Одноклассники, Советую! так-же если зарегистрируетесь бонус от меня 100 баллов на счёт!');
+  	}
 
 });
 
